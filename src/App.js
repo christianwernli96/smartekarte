@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello from V2</h1>
-      </header>
+      <hr class="solid">Softdrinks</hr>
+      <hr class="solid">Bier</hr>
+      <hr class="solid">Cocktails</hr>
+      <hr class="solid">Longdrinks</hr>
+      <hr class="solid">Shots</hr>
+      <hr class="solid">Snacks</hr>
     </div>
   );
 }
